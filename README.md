@@ -6,14 +6,14 @@ This repository contains the reference implementations and benchmark programs us
 
 ## Repository Structure
 
-- `original`
+- `original`  
   Reference implementaions of the original recursive algorithm proposed by Li, as well as LU and Gauss-based methods.  
 
-- `blas2/`
+- `blas2/`  
   BLAS-2 based implementations of the recursive algorithm.
   Seperate directories are provided for single-threaded and multi-threaded executions.  
 
-- `block_blas3/`
+- `block_blas3/`  
   Blocked BLAS-3 based implementations proposed in this thesis.  
   Both single-threaded and multi-threaded versions are inclueded.
 
